@@ -5,8 +5,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "ec2_example" {
-
-   ami           = "ami-0310483fb2b488153"
+ami           = "ami-0310483fb2b488153"
    instance_type = "t2.xlarge"
 
    tags = {
